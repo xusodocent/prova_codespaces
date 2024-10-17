@@ -1,0 +1,12 @@
+{
+  "name": "fake-api",
+  "version": "1.0.0",
+  "description": "Fake API per al desenvolupament del frontend en Vue",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
